@@ -8,6 +8,7 @@ Tämä on Ohjelmistotuotannon tehtävien palautusrepositorio.
 - [riippuvuuksien-injektointi-1](osa2/riippuvuuksien-injektointi-1)
 - [nhl-statistics-1](osa2/nhl-statistics-1)
 - [poetry-web](osa2/poetry-web)
+- [git-treeni](osa2/git-treeni)
 - [project-reader](osa2/project-reader)
 - [nhl-reader](osa2/nhl-reader)
 
