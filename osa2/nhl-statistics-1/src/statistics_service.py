@@ -1,12 +1,8 @@
-from player_reader import PlayerReader
-
-
+from player import Player
 
 class StatisticsService:
-    def __init__(self):
-        reader = PlayerReader()
-
-        self._players = reader.get_players()
+    def __init__(self, player_reader):
+        self._players = player_reader.get_players()
 
     def search(self, name):
         for player in self._players:
@@ -24,7 +20,6 @@ class StatisticsService:
         return list(players_of_team)
 
     def top(self, how_many):
-        # metodin käyttämä apufufunktio voidaan määritellä näin
         def sort_by_points(player):
             return player.points
 
@@ -36,7 +31,7 @@ class StatisticsService:
 
         result = []
         i = 0
-        while i <= how_many:
+        while i < how_many and i < len(sorted_players):  # corrected the loop boundary condition
             result.append(sorted_players[i])
             i += 1
 
