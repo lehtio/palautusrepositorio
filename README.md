@@ -2,9 +2,9 @@
 
 Tämä on Ohjelmistotuotannon tehtävien palautusrepositorio.
 
-## Palautusrepositorion rakenne
+## Palautusrepositorion rakenne (linkit tulevat kun osat saadaan valmiiksi)
 
-### Osa 2
+### Osa 2 
 - [riippuvuuksien-injektointi-1](osa2/riippuvuuksien-injektointi-1)
 - [nhl-statistics-1](osa2/nhl-statistics-1)
 - [poetry-web](osa2/poetry-web)
@@ -14,4 +14,4 @@ Tämä on Ohjelmistotuotannon tehtävien palautusrepositorio.
 ### Osa 3
 - [login-robot](osa3/login-robot)
 
-##toimivat linkit osiin tulevat kun ne saadaan valmiiksi
+
