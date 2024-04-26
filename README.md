@@ -1,8 +1,10 @@
 # Palautusrepositorio
 
-Ohjelmistotuotannon tehtävien palautusrepositorio
+Ohjelmistotuotannon tehtävien palautusrepositorio. 
+Osan 1 tehtävät on palautetti git hubiin erilliseen repositorioon ohtuvarasto
 
-## Palautusrepositorion rakenne 
+## Repositorion rakenne 
+
 
 ### Osa 2 
 - [riippuvuuksien-injektointi-1](osa2/riippuvuuksien-injektointi-1)
