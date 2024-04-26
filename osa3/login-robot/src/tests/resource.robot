@@ -5,11 +5,11 @@ Library  ../AppLibrary.py
 Input Login Command
     Input  login
 
-Input Register Command
-    Input  register
-
 Input Credentials
     [Arguments]  ${username}  ${password}
     Input  ${username}
     Input  ${password}
     Run Application
+
+Input New Command
+    Input  new

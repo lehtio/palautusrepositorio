@@ -1,43 +1,33 @@
 *** Settings ***
-Library  ../AppLibrary.py
 Resource  resource.robot
-
-Test Setup  Create User And Input Register Command
+Test Setup  Input New Command And Create User
 
 *** Test Cases ***
 Register With Valid Username And Password
-    Input Register Command
-    Input Credentials  valid_user  valid_password
-    Output Should Contain  User registered successfully
-
-
+    Input Credentials  larppa  larppa123
+    Output Should Contain  New user registered
 
 Register With Already Taken Username And Valid Password
-    Input Register Command
-    Input Credentials  existing_user  valid_password
-    Output Should Contain  Username already taken
+    Input Credentials  kalle  larppa123
+    Output Should Contain  User with username kalle already exists
 
 Register With Too Short Username And Valid Password
-    Input Register Command
-    Input Credentials  ab  valid_password
-    Output Should Contain  Username must be at least 3 characters long
-
-Register With Enough Long But Invalid Username And Valid Password
-    Input Register Command
-    Input Credentials  invalid_user  valid_password
-    Output Should Contain  Invalid characters in username
+    Input Credentials  la  larppa123
+    Output Should Contain  Username is too short
 
 Register With Valid Username And Too Short Password
-    Input Register Command
-    Input Credentials  new_user  short
-    Output Should Contain  Password must be at least 6 characters long
+    Input Credentials  larppa  ll23
+    Output Should Contain  Password is too short
+
+Register With Username Containing Else Than Letters And Valid Password
+    Input Credentials  larppa23  larppa123
+    Output Should Contain  Username should contain only letters
 
 Register With Valid Username And Long Enough Password Containing Only Letters
-    Input Register Command
-    Input Credentials  another_user  longpassword
-    Output Should Contain  User registered successfully
+    Input Credentials  larppa  larppaonparas
+    Output Should Contain  Password should not contain only letters
 
 *** Keywords ***
-Create User And Input Register Command
+Input New Command And Create User
     Create User  kalle  kalle123
-    Input Register Command
+    Input New Command
