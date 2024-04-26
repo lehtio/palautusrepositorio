@@ -1,8 +1,8 @@
 # Palautusrepositorio
 
-Tämä on Ohjelmistotuotannon tehtävien palautusrepositorio.
+Ohjelmistotuotannon tehtävien palautusrepositorio
 
-## Palautusrepositorion rakenne (linkit tulevat kun osat saadaan valmiiksi)
+## Palautusrepositorion rakenne 
 
 ### Osa 2 
 - [riippuvuuksien-injektointi-1](osa2/riippuvuuksien-injektointi-1)
