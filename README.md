@@ -13,6 +13,8 @@ Tämä on Ohjelmistotuotannon tehtävien palautusrepositorio.
 - [nhl-reader](osa2/nhl-reader)
 
 ### Osa 3
+- [hello-robot](osa3/hello-robot) 
 - [login-robot](osa3/login-robot)
+
 
 
