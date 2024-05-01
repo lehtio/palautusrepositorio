@@ -18,5 +18,10 @@ Osan 1 tehtävät on palautetti git hubiin erilliseen repositorioon ohtuvarasto
 - [hello-robot](osa3/hello-robot) 
 - [login-robot](osa3/login-robot)
 
+### Osa 4
+- [maksukortti-mock](osa4/maksukortti-mock) 
+- [mock-demo](osa4/lmock-demo)
+
+
 
 
