@@ -1,0 +1,5 @@
+Retrospektiivi on projektitiimin kokous, joka pidetään projektin tai prosessin lopussa. Sen tarkoituksena on keskustella projektin tai retrospektiivin aikana menestyneistä asioista, parannettavista asioista ja siitä, miten menestystä ja parannuksia voidaan soveltaa tuleviin iteraatioihin tai projekteihin.
+
+
+Esitellyt retrospektiivitekniikat ovat Start, Stop, Continue, More of, Less of Wheel ja Glad, Sad, Mad ja nämä tekniikat eroavat toisistaan lähestymistapansa ja tavoitteidensa suhteen. “Start, Stop, Continue” -tekniikka keskittyy toimintatapoihin, kuten mitä uusia käytäntöjä tiimin pitäisi aloittaa, mitä nykyisiä käytäntöjä pitäisi lopettaa ja mitä toimintoja pitäisi jatkaa. Siinä missä tekniikka keskittyy toimintatapoihin, “More of, Less of Wheel” auttaa tiimiä tunnistamaan, mitä toimintoja pitäisi tehdä enemmän ja mitä vähemmän. “Glad, Sad, Mad” on tunnepohjainen tekniikka, joka auttaa tiimiä ilmaisemaan tunteitaan ja reaktioitaan projektin eri osa-alueisiin. Jokainen näistä tekniikoista tarjoaa erilaisen näkökulman ja työkalun retrospektiivin suorittamiseen, ja niitä voidaan käyttää yhdessä tai erikseen riippuen tiimin tarpeista ja tavoitteista.
+
