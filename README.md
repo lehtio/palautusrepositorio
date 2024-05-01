@@ -1,8 +1,10 @@
 # Palautusrepositorio
 
-Tämä on Ohjelmistotuotannon tehtävien palautusrepositorio.
+Ohjelmistotuotannon tehtävien palautusrepositorio. 
+Osan 1 tehtävät on palautetti git hubiin erilliseen repositorioon ohtuvarasto
 
-## Palautusrepositorion rakenne (linkit tulevat kun osat saadaan valmiiksi)
+## Repositorion rakenne 
+
 
 ### Osa 2 
 - [riippuvuuksien-injektointi-1](osa2/riippuvuuksien-injektointi-1)
@@ -13,6 +15,8 @@ Tämä on Ohjelmistotuotannon tehtävien palautusrepositorio.
 - [nhl-reader](osa2/nhl-reader)
 
 ### Osa 3
+- [hello-robot](osa3/hello-robot) 
 - [login-robot](osa3/login-robot)
+
 
 
