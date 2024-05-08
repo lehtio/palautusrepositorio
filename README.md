@@ -22,6 +22,11 @@ Osan 1 tehtävät on palautetti git hubiin erilliseen repositorioon ohtuvarasto
 - [maksukortti-mock](osa4/maksukortti-mock) 
 - [mock-demo](osa4/lmock-demo)
 
+### Osa 5
+- [int-joukko](osa5/int-joukko)
+- [laskin](osa5/laskin)
+- [tennis](osa5/tennis)
+
 
 
 
